@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, label {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+}
+
+body {
+    background-color: blue;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.barra {
+    width: 100vw;
+    display: flex;
+    flex-grow: 1, 2, 1;
+    justify-content: space-between;
+    align-items: stretch;
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr 2fr 1fr);*/  
+}
+
+
+.network, .place, .clima {
+    width: 95%;
+    background-color: rgb(67, 83, 233);
+    margin: 3px;
+}
+
+.network {
+    font-size: 12px;
+    width: 90%;
+}
+
+.net1 {
+    color: rgb(177, 175, 175);
+}
+
+.place {
+    font-size: 30px;
+    padding-right: 10%;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.clima {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 100%;
+    margin-top: 0;
+}
+
+.cinco {
+    width: 90%;
+}
+
+.opciones {
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(1, 1, 85);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barra2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tres {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+}
+
+.anuncio {
+    border: white solid 1px;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.quick {
+    width: 100%;
+    background-color: rgb(1, 1, 85);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.item {
+    width: 90%;
+    border: white solid 2px;
+    margin: 8px;
+    display: flex;
+    padding: 5px;
+    
+}
+
+.flechita {
+    display: flex;
+    justify-content: end;
+}
