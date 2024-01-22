@@ -3,11 +3,12 @@
     padding: 0;
 }
 
-p {
+p, h1, h2 {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .barra {
+    height: 70px;
     background-color: rgb(12, 11, 11);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -15,10 +16,11 @@ p {
 
 .logo{
     display: flex;
-    height:max-content;
+    height: 70px;
 }
 
 .icon {
+    margin: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -29,7 +31,7 @@ p {
 }
 
 .icon span:nth-child(3) {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .material-symbols-outlined {
@@ -42,5 +44,165 @@ p {
 
 .big-size {
     color: #FFFFFF;
-    font-size: x-large;
+    font-size: xx-large;
+}
+
+.cuadro-gris {
+    background-color: rgb(204, 202, 202);
+    width: auto;
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.avion {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    width: auto;
+    margin: 0 5% 0 5%;
+}
+
+.caja-principio {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    margin-top: 5px;
+    border: rgb(197, 197, 197) solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.wifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letra-1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+} 
+
+.flecha-abajo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Benefits {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*.Benefits-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.benefits-3 {
+    width: 90%;
+}*/
+
+.T-Mobile {
+    border: rgb(211, 211, 211) solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.copaen {
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 3.5;
+}
+
+.copaen span {
+    font-size: xxx-large;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.boton-morado {
+    border-radius: 5px;
+    background-color: blueviolet;
+    width: 100px;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+.boton-morado:hover {
+    border: black solid 1px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.expand {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+
+/*.expand-1 {
+    display: none;
+}
+
+.expand-1:hover {
+    display: block;
+}
+
+.expand-1:hover::after {
+    content: "Ver mas informacion";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.expand-1:hover::after:hover {
+    content: "ocultar informacion";
+}
+
+@keyframes mostrar-informacion{
+    0% {
+    opacity: 0;
+    }
+
+    100% {
+    opacity: 1;
+    }
+}
+
+.expand-1:hover {
+    animation: mostrar-informacion 5s ease-in-out;
+}*/
+
+.centro-sininterlineado {
+    display: flex;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
 }
