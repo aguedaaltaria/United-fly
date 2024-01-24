@@ -223,6 +223,11 @@ summary {
     border-bottom: aquamarine 5px solid;
 }
 
+.cuadro-negro details[open] summary {
+    color: aqua;
+    border-bottom: aquamarine 5px solid;
+}
+
 .ultimo {
     background-color: rgb(230, 230, 230);
     line-height: 1.5;
@@ -276,15 +281,23 @@ summary {
 
 .centrar1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .CoBrowse {
-    width: 95%;
+   width: auto;
+    /* padding: 20px; */
+}
+
+.CoBrowse details {
     border: rgb(190, 190, 190) 1px solid;
     border-radius: 5px;
-    padding: 20px;
-    background-color: rgb(250, 250, 250);
+    background-color: #e6e6e6;
+    padding: 1rem;
+}
+.CoBrowse details[open] {
+    width: auto;
+    background-color: white;
 }
 
 input[name=Pin] {
