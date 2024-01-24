@@ -3,20 +3,27 @@
     padding: 0;
 }
 
-p, h1, h2 {
+p, h1, h2, h3, h4, h5, li, ul, span {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.pega {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
 .barra {
-    height: 70px;
+    height: 60px;
     background-color: rgb(12, 11, 11);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.logo{
+.logo {
     display: flex;
-    height: 70px;
+    height: 60px;
 }
 
 .icon {
@@ -148,55 +155,21 @@ p, h1, h2 {
     display: flex;
     justify-content: center;
     color: white;
-    transition: transform 0.5s ease;
+    transition: transform 0.1s ease;
 }
 
 .boton-morado:hover {
     border: black solid 1px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    transform: translateY(-8px);
+    transform: translateY(-5px) translateX(-5px);
     cursor: pointer;
 }
 
 .expand {
-    width: 60%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 11fr;
+    grid-template-columns: 1fr 14fr;
 }
-
-/*.expand-1 {
-    display: none;
-}
-
-.expand-1:hover {
-    display: block;
-}
-
-.expand-1:hover::after {
-    content: "Ver mas informacion";
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    cursor: pointer;
-}
-
-.expand-1:hover::after:hover {
-    content: "ocultar informacion";
-}
-
-@keyframes mostrar-informacion{
-    0% {
-    opacity: 0;
-    }
-
-    100% {
-    opacity: 1;
-    }
-}
-
-.expand-1:hover {
-    animation: mostrar-informacion 5s ease-in-out;
-}*/
 
 .centro-sininterlineado {
     display: flex;
@@ -209,11 +182,12 @@ p, h1, h2 {
 
 .preguntas {
     border-top: black solid 1px;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-
 .pregunta-1 {
+    padding-left: 20px;
     display: grid;
     grid-template-columns: 10fr 1fr;
 }
@@ -221,4 +195,121 @@ p, h1, h2 {
 .pregunta-1 span {
     display: flex;
     justify-content: flex-end;
+}
+
+summary {
+    cursor: pointer;
+}
+
+.cuadro-negro {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cuadro-negro summary {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 12px;
+    border-bottom: blue solid 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cuadro-negro summary:hover {
+    color: aqua;
+    border-bottom: aquamarine 5px solid;
+}
+
+.ultimo {
+    background-color: rgb(230, 230, 230);
+    line-height: 1.5;
+}
+
+.idioma-1 {
+    border-bottom: rgb(194, 194, 194) solid 1px;
+    padding: 20px;
+}
+
+.idioma-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.idioma-2 span {
+    color: gray;
+    border-left: rgb(194, 194, 194) solid 1px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.cuatro {
+    color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cuatro-1 {
+    width: 90%;
+}
+
+.final {
+    color: gray
+}
+
+.final-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.paginas {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.final-2 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.centrar1 {
+    display: flex;
+    justify-content: center;
+}
+
+.CoBrowse {
+    width: 95%;
+    border: rgb(190, 190, 190) 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+}
+
+input[name=Pin] {
+    width: 98%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.boton-morado-2 {
+    border-radius: 5px;
+    background-color: blueviolet;
+    width: auto;
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    transition: transform 0.1s ease;
+}
+
+.boton-morado-2:hover {
+    border: black solid 1px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px) translateX(-5px);
+    cursor: pointer;
 }
