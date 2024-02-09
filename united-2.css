@@ -64,11 +64,14 @@ p, h1, h2, h3, h4, h5, li, ul, span {
     border-radius: 5px;
 }
 
-.avion {
+.avion span{
+    rotate: 90deg;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
+    
 }
 
 .todo {
@@ -80,9 +83,17 @@ p, h1, h2, h3, h4, h5, li, ul, span {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     margin-top: 5px;
-    border: rgb(197, 197, 197) solid 1px;
+    border: rgb(197, 197, 197) solid 1px; 
     border-radius: 5px;
     padding: 15px;
+    transition: border 50ms ease;
+}
+
+.caja-principio:hover {
+    border: blueviolet 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 rgb(0, 0, 0) 50px;
+    transform: scale(0.97, 0.97);
 }
 
 .wifi {

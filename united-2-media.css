@@ -1,0 +1,215 @@
+@media (max-width: 800px) {
+    .hidden {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 800px) {
+    .hidden2 {
+        visibility: hidden;
+    }
+
+    body {
+        line-height: 1rem;
+    }
+    
+    .barra {
+        padding-left: 120px;
+        padding-right: 120px;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 3fr;
+    }
+
+    .logo {
+        display: flex;
+        height: 70px;
+        margin: 15px 0;
+    }
+
+    .head {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: end;
+    }
+
+    .head-1 {
+        margin-top: 20px;
+        gap: 15px;
+        font-size: 12px;
+        display: flex;
+    }
+
+    .head-1 span {
+        font-size: 20px;
+    }
+
+    .head-1:hover { 
+        cursor: pointer;
+    }
+
+    .head-1-2 {
+        margin-top: 5px;
+        display: flex;
+    }
+
+    .head-1-3 {
+        margin-top: 5px;
+        display: flex;
+        width: fit-content;
+        width: 8rem;
+        justify-content: end;
+    }
+
+    .languages-1 {
+        box-shadow: 0 0 10px gray;
+        background-color: white;
+        color: rgb(51, 51, 51);
+        padding: 50px 25px;
+        font-size: 14px;
+    }
+
+    .select-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .select-3 {
+        margin: 5px;
+        width: 200px;
+        outline: none;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 2px solid gray;
+        background-color: white;
+    }
+
+    .select-3:hover {
+        color: blue;
+        border-bottom: 3px solid blue;
+    }
+
+    .select-2:hover {
+        color: blue;
+    }
+
+    #btn-changes {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .head-2 {
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .head details {
+        background-color: black;
+    }
+
+    .head-2 summary {
+        display: flex;
+        width: 5.5rem;
+        justify-content: center;
+    }
+
+    .head-2 summary:focus {
+        border-bottom: 2px solid white;
+    }
+
+    .head .bo {
+        width: 3.5rem;
+    }
+
+    .cuadro-gris {
+        margin: 2rem 120px;
+        display: grid;
+        grid-template-columns: 1fr 15fr;
+    }
+
+    .avion span {
+        font-size: 40px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dentro-cuadro-gris {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .todo {
+        width: auto;
+        margin: 0 120px;
+    }
+
+    .todo p {
+        width: 65%;
+        line-height: 1.5;
+    }
+
+    .tres-cajas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .caja-principio {
+        width: 21rem;
+        padding: 10px;
+    }
+
+    .wifi span{
+        margin: 5px;
+    }
+
+    .letra-1 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .flecha-abajo span {
+        font-size: 40px;
+    }
+
+    .flecha-abajo span a {
+        text-decoration: none;
+    }
+
+    .Benefits-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1rem;
+    }
+    
+    .Benefits-2 img {
+        margin-bottom: 1rem;
+    }
+
+    .Benefits-2 h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .Benefits-2 p {
+        width: 100%;
+    }
+
+    .T-Mobile {
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+    }
+    
+    .T-Mobile p {
+        width: 80%;
+    }
+}
