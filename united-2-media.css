@@ -212,4 +212,120 @@
     .T-Mobile p {
         width: 80%;
     }
+
+    .copaen2 {
+        visibility: hidden;
+        margin: 0;
+        width: 0;
+        padding: 0;
+        height: 0;
+    }
+
+    .copaen {
+        background-color: rgb(228, 228, 228);
+        display: grid;
+        border-radius: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-self: center;
+        padding: 1rem;
+        margin: 1rem 0;
+        line-height: 2;
+        gap: 1rem;
+        padding-right: 2rem;
+    }
+
+    .img-plane {
+        margin: 1rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .img-plane p {
+        width: 90%;
+    }
+
+    .Wi-Fi-Day-Pass-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+
+    .Wi-Fi-Day-Pass-1 img {
+        transform: translateY(-40px);
+    }
+
+    .Wi-Fi-Day-Pass-1 p {
+        width: 80%;
+    }
+
+    .centrar2 span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Wi-Fi-subscriptions-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
+
+    .Wi-Fi-subscriptions-1 img {
+        transform: translateY(-40px);
+    }
+
+    .expand li {
+        width: 65%;
+        line-height: 1.5;
+    }
+
+    .expand p {
+        transform: translateX(-2rem);
+    }
+
+    .cuadro-negro {
+        padding: 0 120px;
+    }
+
+    .cuadro-negro details > p {
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .ultimo {
+        padding: 0 120px;
+    }
+  
+    .final-expand {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #star-allince {
+        transform: translateY(-1.5rem);
+    } 
+
+    .centrar1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .CoBrowse-expand {
+        padding: 1rem 3rem;
+        display: grid;
+        grid-template-columns: 7fr 2fr;
+    }
+
+    .CoBrowse-expand p {
+        width: 90%;
+    }
+
+    .boton-morado-2 {
+        width: 105%;
+    }
+
+
+
+
+
 }
