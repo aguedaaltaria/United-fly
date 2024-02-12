@@ -64,11 +64,22 @@
     }
 
     .languages-1 {
+        position: absolute;
         box-shadow: 0 0 10px gray;
         background-color: white;
         color: rgb(51, 51, 51);
         padding: 50px 25px;
         font-size: 14px;
+        transform: translate(-10rem, 1rem);
+    }
+
+    .languages-1::before {
+        content: '';
+        border: 10px rgba(0, 0, 0, 0) solid;
+        border-bottom-color: white;
+        position: absolute;
+        top: -1.2rem;
+        left: 50%;
     }
 
     .select-1 {
@@ -126,6 +137,35 @@
 
     .head .bo {
         width: 3.5rem;
+    }
+
+    .detail-open {
+        position: absolute;
+        background-color: black;
+        left: 0;
+        width: 100vw;
+        padding: 0.5rem 120px 10rem;
+        display: flex;
+        gap: 3rem;
+        box-shadow: 0 0 10px black;
+        transform: translateY(0.5rem);
+    }
+
+    .detail-open h3 {
+        color: rgb(188, 188, 255);
+        line-height: 2;
+        font-size: 16px;
+    }
+
+    .detail-open p {
+        font-size: 14px;
+        line-height: 2;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .detail-open span {
+        font-size: 12px;
     }
 
     .cuadro-gris {

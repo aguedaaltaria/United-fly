@@ -329,6 +329,7 @@ summary {
 .cuadro-negro details[open] summary{
     color: aqua;
     border-bottom: aquamarine 5px solid;
+    width: auto;
 }
 
 
